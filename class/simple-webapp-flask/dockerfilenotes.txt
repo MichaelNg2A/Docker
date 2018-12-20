@@ -1,2 +1,7 @@
 apt-get update
 apt-get install -y python
+apt-get install -y python-pip
+apt-get install -y git
+pip install flask
+git clone https://github.com/mmumshad/simple-webapp-flask.git
+FLASK_APP=/simple-webapp-flask/app.py flask run --host=0.0.0.0
